@@ -1,0 +1,50 @@
+
+
+body{
+	background-image: url("palmtrees.jpg");
+	background-size: cover;
+
+}
+
+#logo{
+	margin:0px;
+	max-height: 88px;
+	max-width: 200px;
+}
+
+#services{
+	background-color: #F8C471;
+}
+
+#testimonials{
+	background-color: white;
+
+}
+
+.navlinks{
+	padding: 3px;
+	margin-right:4px;
+	color: white;
+}
+
+#links{
+	align-items: right;
+}
+
+.bottom{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#jumbotext{
+	padding: 30px;
+	text-align: bottom left;
+	color: white;
+	font-size: 60px;
+}
+
+.jumbotron{
+	margin-top: 0px;
+	height: 100vh;
+}

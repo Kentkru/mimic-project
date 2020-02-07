@@ -51,84 +51,58 @@
   </div>
 </div>
 
-
-
-<!--Carousel code starts
+<!--Carousel code begins -->
+<!--  original code by Iatek LLC 2018 - CC 2.0 License - Attribution required
+      code customized by Azmind.com
+      Follow the guide at https://azmind.com/bootstrap-carousel-multiple-items/
+-->
+<div id="carouselbg">
 <div class="container">
-  <div class="row">
-    <div id="carousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="d-none d-lg-block">
-            <div class="slide-box">
-              <img src="https://picsum.photos/285/200/?image=0&random" alt="First slide">
-              <img src="https://picsum.photos/285/200/?image=1&random" alt="First slide">
-              <img src="https://picsum.photos/285/200/?image=2&random" alt="First slide">
-              <img src="https://picsum.photos/285/200/?image=3&random" alt="First slide">
+
+<div class="top-content">
+    <div class="container-fluid">
+        <div id="carousel-example" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+                    <img src="assets/images/abc.png" class="img-fluid mx-auto d-block" alt="img1">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="assets/images/bbc.png" class="img-fluid mx-auto d-block" alt="img2">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="assets/images/cbs.png" class="img-fluid mx-auto d-block" alt="img3">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="assets/images/gotr.png" class="img-fluid mx-auto d-block" alt="img4">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="assets/images/icf.png" class="img-fluid mx-auto d-block" alt="img5">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="assets/images/itv.png" class="img-fluid mx-auto d-block" alt="img6">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="assets/images/pg.png" class="img-fluid mx-auto d-block" alt="img7">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="assets/images/radical.png" class="img-fluid mx-auto d-block" alt="img8">
+                </div>
             </div>
-          </div>
-          <div class="d-none d-md-block d-lg-none">
-            <div class="slide-box">
-              <img src="https://picsum.photos/240/200/?image=0&random" alt="First slide">
-              <img src="https://picsum.photos/240/200/?image=1&random" alt="First slide">
-              <img src="https://picsum.photos/240/200/?image=2&random" alt="First slide">
-            </div>
-          </div>
-          <div class="d-none d-sm-block d-md-none">
-            <div class="slide-box">
-              <img src="https://picsum.photos/270/200/?image=0&random" alt="First slide">
-              <img src="https://picsum.photos/270/200/?image=1&random" alt="First slide">
-            </div>
-          </div>
-          <div class="d-block d-sm-none">
-            <img class="d-block w-100" src="https://picsum.photos/600/400/?image=0&random" alt="First slide">
-          </div>
+            <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <div class="carousel-item">
-          <div class="d-none d-lg-block">
-            <div class="slide-box">
-              <img src="https://picsum.photos/285/200/?image=4&random" alt="Second slide">
-              <img src="https://picsum.photos/285/200/?image=5&random" alt="Second slide">
-              <img src="https://picsum.photos/285/200/?image=6&random" alt="Second slide">
-              <img src="https://picsum.photos/285/200/?image=7&random" alt="Second slide">
-            </div>
-          </div>
-          <div class="d-none d-md-block d-lg-none">
-            <div class="slide-box">
-              <img src="https://picsum.photos/240/200/?image=3&random" alt="Second slide">
-              <img src="https://picsum.photos/240/200/?image=4&random" alt="Second slide">
-              <img src="https://picsum.photos/240/200/?image=5&random" alt="Second slide">
-            </div>
-          </div>
-          <div class="d-none d-sm-block d-md-none">
-            <div class="slide-box">
-              <img src="https://picsum.photos/270/200/?image=2&random" alt="Second slide">
-              <img src="https://picsum.photos/270/200/?image=3&random" alt="Second slide">
-            </div>
-          </div>
-          <div class="d-block d-sm-none">
-            <img class="d-block w-100" src="https://picsum.photos/600/400/?image=1&random" alt="Second slide">
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
-  </div>
 </div>
-Carousel code ends-->
 
-
+</div>
+</div>
+<!-- Carousel section ends-->
 
 
 

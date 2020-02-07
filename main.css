@@ -6,15 +6,33 @@ body{
 
 }
 
-.div{
-	padding: 0;
-	margin: 0;
+
+.container{
+	min-height: 30vh;
 }
 
+
+
+/* NAVBAR STYLING START */
 nav .navbar-nav li a{
   color: white !important;
+
   }
 
+.active{
+	color: rgba(0, 0, 0, 0.5);
+	border-bottom: 1px solid red;
+}
+
+.dropdown-item:hover {
+  background-image: none;
+  background-color: black;
+}
+
+nav .navbar-nav li a:hover{
+	color: rgba(0, 0, 0, 0.5);
+	border-bottom: 1px solid red;
+}
 
 #navpadleft{
 padding-left:10vw;
@@ -27,6 +45,7 @@ padding-right:10vw;
 
 .dropdown:hover>.dropdown-menu {
   display: block;
+
 }
 
 .dropdown>.dropdown-toggle:active {
@@ -43,16 +62,10 @@ padding-right:10vw;
 	max-height: 88px;
 	max-width: 191px;
 }
+/* NAVBAR STYLING END */
 
-#services{
-	background-color: #fbf5ee;
-}
 
-#testimonials{
-	background-color: white;
-
-}
-
+/*jUMBOTRON AND TEXT STYLING*/
 .bottom{
 	position: absolute;
 	bottom: 0;
@@ -61,8 +74,10 @@ padding-right:10vw;
 
 #jumbotext{
 	padding: 30px;
+	margin-top:10vh;
 	text-align: bottom left;
 	color: white;
+	font-family: serif;
 	font-size: 60px;
 }
 
@@ -70,7 +85,17 @@ padding-right:10vw;
 	margin-top: 0px;
 	height: 100vh;
 }
+/*JUMBOTRON AND TEXT END*/
 
+
+/*GRID AND TEXT STYLING FOR THE LAST THREE BARS*/
+#services{
+	background-color: #fbf5ee;
+}
+
+#testimonials{
+	background-color: white;
+}
 
 .col-sm-4{
 	align-content: center;
@@ -78,6 +103,7 @@ padding-right:10vw;
 }
 
 .gridimg{
+	padding-top: 2vh;
 	align-content: center;
 	height:275px;
 	width:350px;
@@ -89,7 +115,7 @@ padding-right:10vw;
 
 h3{
 	text-align:left;
-	margin-top: 5vh;
+	margin-top: 15vh;
 	font-size: 25px;
 	font-family: serif;
 	line-height: 1.6;
@@ -98,10 +124,60 @@ h3{
 h6{	
 	text-align:left;
 	margin-top: 2vh;
-	margin-bottom: 5vh;
 	font-size: 14px;
 	font-family: sans-serif;
 }
+#contact{
+background-image: url(https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Marketing-Agency-Contact.jpg);
+background-repeat: no-repeat;
+}
+#contacttext{
+	margin-top:6vh;
+	color: white;
+	font-size: 40px;
+	font-family: serif;
+}
+
+#redlink{
+	color: red;
+	font-size: 40px;
+	font-family: serif;
+}
+
+#redlink:hover{
+	border-bottom: 2px solid red;
+}
+
+#logofooter{
+	max-height: 100;
+	max-width: 46;
+	padding:0;
+}
+
+#footer{
+	padding-top: 5vh;
+	color: white;
+	background-color: #212326;
+}
+
+
+.level{
+	margin-top:10vh;
+}
+
+#legal{
+	float:left;
+	font-size:11px;
+	font-family: HelveticaNeue;
+	color: #5c7c91;
+	margin-bottom: 5px;
+}
+
+.orangelink:hover{
+	color: orange;
+}
+
+/*GRID AND TEXT STYLING FOR THE LAST THREE BARS END*/
 
 
 

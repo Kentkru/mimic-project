@@ -14,7 +14,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse text-right" id="navbarNavDropdown">
-    <ul class="navbar-nav ml-auto flex-nowrap">
+    <ul class="navbar-nav ml-auto flex-nowrap" id="navpadright">
       <li class="nav-item active">
         <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
       </li>
@@ -34,7 +34,7 @@
         <a class="nav-link" href="#">CAREERS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="navpadright" href="#">CONTACT</a>
+        <a class="nav-link" href="#">CONTACT</a>
       </li>
     </ul>
   </div>
@@ -43,9 +43,11 @@
 <!--Jumbotron-->
 <div class="jumbotron jumbotron-fluid bg-transparent">
   <div class="container">
-
-    <span class="bottom"><p id ="jumbotext">We deliver your story to any audience in the most creative and measurable way.</p></span>
-
+  	<div class="row">
+  		<div class ="col-sm-8">
+    		<span><p id ="jumbotext">We deliver your story to any audience in the most creative and measurable way.</p></span>
+		</div>
+	</div>
   </div>
 </div>
 
@@ -209,18 +211,15 @@ Carousel code ends-->
 
 
 <div id = "contact">
-	<div class="container">
+	<div class="container features">
 		<div class = "row">
-			<div class="col-sm-4">
-
-			</div>
-				
-			<div class="col-sm-4">
-
-			</div>
-
-			<div class="col-sm-4">
-
+			<div class="col-sm-8">
+				<h6 style="color: white; margin-top: 5vh;">
+					CONTACT
+				</h6>
+				<p id="contacttext">
+					Don't be analog, let's <a><span id="redlink">connect.</span></a>
+				</p>
 			</div>
 		</div>
 	</div>
@@ -230,19 +229,41 @@ Carousel code ends-->
 	<div class="container">
 		<div class = "row">
 			<div class="col-sm-4">
-				<img class="logo" src="assets/images/logo.png">
+				<div style = "margin-left:0; padding-left: 0;">
+				<p>
+				<img id="logofooter" src="assets/images/logo.png">
+				</p>
+				</div>
 			</div>
 				
 			<div class="col-sm-4">
-				<span>6121 SUNSET BLVD </span>
-				<span>LOS ANGELES, CA 90028</span>
-				<span>INFO@TINYHORSE.COM</span>
+				<div class ="level">
+				<p></p>
+				<h6>6121 SUNSET BLVD </h6>
+				<p></p>
+				<h6>LOS ANGELES, CA 90028</h6>
+				<p></p>
+				<h6>INFO@TINYHORSE.COM</h6>
+				</div>
 			</div>
 
 			<div class="col-sm-4">
-				<span>LOS ANGELES</span>
-				<span>CHARLOTTE</span>
-				<span>NEW YORK</span>
+				<div class ="level">
+				<p></p>
+				<h6>LOS ANGELES</h6>
+				<p></p>
+				<h6>CHARLOTTE</h6>
+				<p></p>
+				<h6>NEW YORK</h6>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" style ="min-height: 0;">
+		<div class="row">
+			<div col-sm-12>
+				<span id="legal">©Not a Copyright | Tiny Horse mockup | <a class="orangelink" href="https://tinyhorse.com/privacy-policy/">Privacy Policy</a> | <a class="orangelink" href ="https://tinyhorse.com/legal/">Legal</a></span>
 			</div>
 		</div>
 	</div>

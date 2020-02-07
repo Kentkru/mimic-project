@@ -1,0 +1,1 @@
+This is a mockup project for TTS trying to mimic as much of the Tiny horse website as I can 2/7/2020
